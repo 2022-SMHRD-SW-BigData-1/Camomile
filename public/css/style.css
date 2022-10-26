@@ -35,6 +35,18 @@ h5 {
   font-weight: 700;
   line-height: 20px;
 }
+#chano1{
+  display: "inline-block" !important; 
+  position: "relative" !important;
+  background-color: "rgba(241, 196, 15, 0.17)" !important;
+  width: "50%" !important;
+  font-weight: "bold" !important;
+  line-height: "230%" !important;
+  color: "black" ;
+  /* fontFamily: ""; */
+  /* textAlign: "center"; */
+  /* fontStyle:"italic"; */
+}
 p {
   font-size: 15px;
 }
@@ -63,18 +75,20 @@ ol {
 }
 hr {
   height: 2px;
-  width: 70px;
+  width: 100%;
   text-align: center;
   position: relative;
-  background: #1e7a46;
-  margin-bottom: 20px;
+  background: #D5D5D5;
+  margin-bottom: '10 0 10 0';
   border: 0;
 }
 /* Navigation */
 #menu {
   padding: 15px;
+  margin-bottom: 2;
   transition: all 0.8s;
 }
+
 #menu.navbar-default {
   background-color: #fff;
   border-color: rgba(231, 231, 231, 0);
@@ -108,7 +122,51 @@ hr {
   content: "";
   transition: width 0.2s;
 }
+
 #menu.navbar-default .navbar-nav > li > a:hover:after {
+  width: 100%;
+}
+
+/* Navigation 2 */
+
+#menu2 {
+  margin-bottom: 13px;
+  transition: all 0.8s;
+}
+#menu2.navbar-default {
+  background-color: rgba(241, 196, 15, 0.17);
+  border-color: rgba(231, 231, 231, 0);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+#menu2 a.navbar-brand {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+  text-transform: uppercase;
+}
+#menu2.navbar-default .navbar-nav > li > a {
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  color: #555;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 13px 2px;
+  border-radius: 0;
+  margin: 0px 20px 0;
+}
+#menu2.navbar-default .navbar-nav > li > a:after {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  content: "";
+  transition: width 0.2s;
+}
+#menu2.navbar-default .navbar-nav > li > a:hover:after {
   width: 100%;
 }
 .navbar-default .navbar-nav > .active > a,
@@ -204,26 +262,37 @@ a:focus,
   outline-offset: none;
 
 }
+
+#search{
+  display:'inline';
+  width: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+    
+}
+
 /* Header Section */
 .intro {
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/내\ 프로젝트\ \(3\).png) center center no-repeat;
-  background-color: #e5e5e5;
-  -webkit-background-size: cover;
+  /* background: url(../img/내\ 프로젝트\ \(3\).png) center center no-repeat; */
+  background-color: #f1c40f65;
+  /* -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  -o-background-size: cover;
+  -o-background-size: cover; */
 }
-.intro .overlay {
+/* .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
-}
+} */
 .intro h1 {
-  font-family: "Raleway", sans-serif;
-  color: #fff;
-  font-size: 82px;
-  font-weight: 700;
+  /* font-family: "Raleway", sans-serif; */
+  color: rgb(10, 10, 10);
+  font-size: 40px;
+  font-weight: 500;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 10px;
@@ -241,9 +310,9 @@ a:focus,
   margin-bottom: 60px;
 }
 header .intro-text {
-  padding-top: 350px;
-  padding-bottom: 200px;
-  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  /* text-align: center; */
 }
 /* Features Section */
 /* #features {
@@ -263,7 +332,7 @@ header .intro-text {
 } */
 /* About Section */
 #about {
-  padding: 100px 0;
+  /* padding: 100px 0; */
 }
 #about h3 {
   font-size: 22px;
@@ -458,6 +527,7 @@ header .intro-text {
   padding: 10px 0 0;
   color: #888;
 }
+
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;

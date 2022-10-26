@@ -1587,22 +1587,18 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
-.mainSubmit{
-  background:url('../img/search.jpg');
-  background-position: 100px 100px;
-  background-repeat: no-repeat;
-  outline: 0;
 
-}
+
 .container {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
+
 @media (min-width: 768px) {
   .container {
-    width: 750px;
+    width: 1000px;
   }
 }
 @media (min-width: 992px) {
@@ -4500,7 +4496,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
   .navbar-right {
     float: right !important;
-    margin-right: -15px;
+    margin-right: 0;
+  }
+  .search {
+    float: right !important;
+    margin-right: 90;
   }
   .navbar-right ~ .navbar-right {
     margin-right: 0;

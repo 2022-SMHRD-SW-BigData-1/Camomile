@@ -1,9 +1,24 @@
+// import { useState } from "react";
+
 export const Navigation = (props) => {
-  
+
+  // const [search, setSearch] = useState("");
+  // const onChange = (e) => {
+  //   setSearch(e.target.value)
+  // }
+
+  // const filterTitle = movies.filter((p) => {
+  //   return p.title.replace(" ","").toLocaleLowerCase().includes(search.toLocaleLowerCase().replace(" ",""))
+  // })
+//  id="menu" className="navbar navbar-default navbar-fixed-top"
+// className = "container";
   return (
-    <nav id="menu" className="navbar navbar-default navbar-fixed-top">
+    <nav id="menu" className="navbar navbar-default">
       <div className="container">
-        <a className="navbar-brand page-scroll" href="#page-top">
+        <a
+          className="navbar-brand page-scroll"
+          href="http://localhost:3000/#page-top"
+        >
           <img
             src={require("./camomile.png").default}
             style={{
@@ -16,51 +31,13 @@ export const Navigation = (props) => {
         </a>{" "}
         <ul className="nav navbar-nav navbar-right">
           <li>
-            <a href="" className="page-scroll">
-              로그인
-            </a>
+            <a href="">로그인</a>
           </li>
           <li>
-            <a href="" className="page-scroll">
-              회원가입
-            </a>
+            <a href="">회원가입</a>
           </li>
         </ul>
       </div>
-
-      <div className="container">
-        <div>
-          <ul className="nav navbar-nav navbar-left">
-            <li>
-              <a href="" className="page-scroll">
-                공지사항
-              </a>
-            </li>
-            <li>
-              <a href="" className="page-scroll">
-                예약
-              </a>
-            </li>
-            <li>
-              <a href="" className="page-scroll">
-                리뷰
-              </a>
-            </li>
-            <li>
-              <a href="" className="page-scroll">
-                지도
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div >
-          <input type="text" name="mainSearch"/>
-          <button type="submit" className="mainSubmit">
-             <img src="" alt="" />
-          </button>
-        </div>
-      </div>
     </nav>
   );
-  
-}
+};

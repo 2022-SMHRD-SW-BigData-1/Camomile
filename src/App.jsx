@@ -1,13 +1,19 @@
+// JSX => JS랑 똑같은데 HTML 구문으로 작성이 가능한 확장자.
+
 import { useState, useEffect } from "react";
 import { Navigation } from "./components/navigation";
+import { Navigation2 } from "./components/navigation2";
 import { Header } from "./components/header";
 import { Features } from "./components/features";
-import { About } from "./components/about";
-import { Services } from "./components/services";
-import { Gallery } from "./components/gallery";
-import { Testimonials } from "./components/testimonials";
-import { Team } from "./components/Team";
-import { Contact } from "./components/contact";
+import { RecommendNearby } from "./components/recommendNearby";
+import { RecommendNew } from "./components/recommendNew";
+import { RecommendKeyword } from "./components/recommendKeyword";
+import { MoveToAdPage } from "./components/moveToAdPage";
+// import { Services } from "./components/services";
+// import { Gallery } from "./components/gallery";
+// import { Testimonials } from "./components/testimonials";
+// import { Team } from "./components/Team";
+// import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
@@ -26,14 +32,18 @@ const App = () => {
   return (
     <div>
       <Navigation />
+      <Navigation2 />
       <Header data={landingPageData.Header} />
-      <Features data={landingPageData.Features} />
-      <About data={landingPageData.About} />
-      <Services data={landingPageData.Services} />
+      <RecommendNearby />
+      <RecommendNew />
+      <RecommendKeyword />
+      <MoveToAdPage />
+      {/* <Features data={landingPageData.Features} /> */}
+      {/* <Services data={landingPageData.Services} />
       <Gallery data={landingPageData.Gallery}/>
       <Testimonials data={landingPageData.Testimonials} />
       <Team data={landingPageData.Team} />
-      <Contact data={landingPageData.Contact} />
+      <Contact data={landingPageData.Contact} /> */}
     </div>
   );
 };

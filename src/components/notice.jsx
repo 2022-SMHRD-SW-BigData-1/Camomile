@@ -1,6 +1,10 @@
-export const Features = (props) => {
+import './recommend.css';
+
+export const Notice = (props) => {
   return (
     <div id="features" className="text-center">
+
+      기철홀릭
       {/* <div className="container">
         <div className="col-md-10 col-md-offset-1 section-title">
           <h2>기철홀릭</h2>

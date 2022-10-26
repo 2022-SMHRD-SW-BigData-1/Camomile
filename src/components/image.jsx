@@ -1,6 +1,7 @@
 export const Image = ({ title, largeImage, smallImage }) => {
   return (
-    <div className='portfolio-item'>
+    <>
+    {/* <div className='portfolio-item'>
       <div className='hover-bg'>
         {' '}
         <a
@@ -18,6 +19,7 @@ export const Image = ({ title, largeImage, smallImage }) => {
           />{' '}
         </a>{' '}
       </div>
-    </div>
+    </div> */}
+    </>
   )
 }
