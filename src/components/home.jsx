@@ -11,6 +11,7 @@ export const Home = () => {
   
   useEffect(function(){
     document.getElementById("ConsumerHeader").style.display="none";
+    document.getElementById("AdHeader").style.display="none";
   })
   return (
     <div>

@@ -1,0 +1,9 @@
+.adFlexBar{
+    display: inline-flex;
+    position: relative;
+    width: 700px;
+    top:10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}

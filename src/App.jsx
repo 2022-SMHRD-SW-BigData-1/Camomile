@@ -13,6 +13,7 @@ import SmoothScroll from "smooth-scroll";
 import "./App.css";
 import { Navigation } from "./components/navigation";
 import { LoginPage } from "./components/LoginPage";
+import { AdHeader } from "./components/AdHeader";
 // export const scroll = new SmoothScroll('a[href*="#"]', {
 //   speed: 1000,
 //   speedAsDuration: true,
@@ -25,13 +26,14 @@ const App = () => {
   return (
     <>
       {/* <Home/> */}
-      <ConsumerHeader></ConsumerHeader>
-      <LoginPage></LoginPage>
-      <JoinMember />
-      <Routes>
+      {/* <ConsumerHeader></ConsumerHeader> */}
+      <AdHeader></AdHeader>
+      {/* <LoginPage></LoginPage>
+      <JoinMember /> */}
+      {/* <Routes>
         <Route path="/" element={<Home></Home>} />
         <Route path="/nav" element={<Navigation />} />
-      </Routes>
+      </Routes> */}
       {/* <Features data={landingPageData.Features} /> */}
       {/* <Services data={landingPageData.Services} />
       <Gallery data={landingPageData.Gallery}/>
