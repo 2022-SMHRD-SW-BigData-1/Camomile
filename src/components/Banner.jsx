@@ -1,4 +1,4 @@
-export const Header = (props) => {
+export const Banner = (props) => {
   return (
     <header id='header'>
       <div className='intro'>
@@ -6,7 +6,7 @@ export const Header = (props) => {
             <div className='row'>
               <div className='intro-text'>
                 <h1 style={{textAlign:'center'}}>
-                  이벤트 및 공지사항
+                  웹페이지 소개 배너
                 </h1>
               </div>
             </div>
