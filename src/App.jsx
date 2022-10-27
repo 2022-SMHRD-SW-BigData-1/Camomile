@@ -9,6 +9,7 @@ import { RecommendNearby } from "./components/recommendNearby";
 import { RecommendNew } from "./components/recommendNew";
 import { RecommendKeyword } from "./components/recommendKeyword";
 import { MoveToAdPage } from "./components/moveToAdPage";
+import { JoinMember } from "./components/joinMember";
 // import { Services } from "./components/services";
 // import { Gallery } from "./components/gallery";
 // import { Testimonials } from "./components/testimonials";
@@ -31,13 +32,14 @@ const App = () => {
 
   return (
     <div>
-      <Navigation />
+      {/* <Navigation />
       <Navigation2 />
       <Header data={landingPageData.Header} />
       <RecommendNearby />
       <RecommendNew />
       <RecommendKeyword />
-      <MoveToAdPage />
+      <MoveToAdPage /> */}
+      <JoinMember />
       {/* <Features data={landingPageData.Features} /> */}
       {/* <Services data={landingPageData.Services} />
       <Gallery data={landingPageData.Gallery}/>

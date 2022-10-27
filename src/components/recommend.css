@@ -46,7 +46,7 @@
 .reco-more{
   display: inline-block;
   position: relative;
-  background-color: rgba(241, 196, 15, 0.17);
+  background-color: hsla(48, 89%, 50%, 0.17);
   width: 50%;
   bottom: 2;
   font-weight: bold;
