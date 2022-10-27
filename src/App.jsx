@@ -16,6 +16,8 @@ import { MoveToAdPage } from "./components/moveToAdPage";
 // import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
+import { LoginPage } from "./components/LoginPage";
+
 import "./App.css";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -31,13 +33,14 @@ const App = () => {
 
   return (
     <div>
-      <Navigation />
+      <LoginPage />
+      {/* <Navigation />
       <Navigation2 />
-      <Header data={landingPageData.Header} />
-      <RecommendNearby />
+      <Header data={landingPageData.Header} /> */}
+      {/* <RecommendNearby />
       <RecommendNew />
       <RecommendKeyword />
-      <MoveToAdPage />
+      <MoveToAdPage /> */}
       {/* <Features data={landingPageData.Features} /> */}
       {/* <Services data={landingPageData.Services} />
       <Gallery data={landingPageData.Gallery}/>
