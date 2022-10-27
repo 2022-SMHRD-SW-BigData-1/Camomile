@@ -2,9 +2,9 @@
 
 import { useState, useEffect } from "react";
 import {Route, Routes} from 'react-router-dom';
+import { JoinMember } from "./components/joinMember";
 import { Home } from "./components/home";
 import { ConsumerHeader } from "./components/consumerHeader";
-
 // import { Services } from "./components/services";
 // import { Gallery } from "./components/gallery";
 // import { Testimonials } from "./components/testimonials";
@@ -31,11 +31,11 @@ const App = () => {
       {/* <Home/> */}
 
       <ConsumerHeader></ConsumerHeader>
-      
+      <JoinMember />
       <Routes>
         <Route path="/" element={<Home></Home>} />
-        <Route path="/nav" element={< Navigation/>} />
-      </Routes> 
+        <Route path="/nav" element={<Navigation />} />
+      </Routes>
       {/* <Features data={landingPageData.Features} /> */}
       {/* <Services data={landingPageData.Services} />
       <Gallery data={landingPageData.Gallery}/>
