@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import './AdHeader.css';
 
 export const AdHeader = () => {
+  
   return (
     <div id="AdHeader">
       <div
@@ -24,7 +25,7 @@ export const AdHeader = () => {
           }}
         />
         <div className="adFlexBar">
-          <p>예약확인</p>
+          <p onClick={()=>{}}>예약확인</p>
           <p>예약내역</p>
           <p>공지사항</p>
 
@@ -33,7 +34,8 @@ export const AdHeader = () => {
               display: "inline-block",
               position: "relative",
               textAlign: "right",
-              width: "250px",
+              width: "165px",
+              top:'12px',
             }}
           >
             <li
@@ -43,16 +45,20 @@ export const AdHeader = () => {
                 width: "65px",
               }}
             >
-              <a href="">로그인</a>
+              <a href="" style={{ color: "black", fontWeight: "bold" }}>
+                로그인
+              </a>
             </li>
             <li
               style={{
                 display: "inline-block",
                 position: "relative",
-                width: "73px",
+                width: "100px",
               }}
             >
-              <a href="">회원가입</a>
+              <a href="" style={{ color: "black", fontWeight: "bold" }}>
+                회원가입
+              </a>
             </li>
           </ul>
         </div>
