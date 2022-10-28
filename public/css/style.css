@@ -35,14 +35,14 @@ h5 {
   font-weight: 700;
   line-height: 20px;
 }
-#chano1{
-  display: "inline-block" !important; 
+#chano1 {
+  display: "inline-block" !important;
   position: "relative" !important;
   background-color: "rgba(241, 196, 15, 0.17)" !important;
   width: "50%" !important;
   font-weight: "bold" !important;
   line-height: "230%" !important;
-  color: "black" ;
+  color: "black";
   /* fontFamily: ""; */
   /* textAlign: "center"; */
   /* fontStyle:"italic"; */
@@ -78,8 +78,8 @@ hr {
   width: 100%;
   text-align: center;
   position: relative;
-  background: #D5D5D5;
-  margin-bottom: '10 0 10 0';
+  background: #d5d5d5;
+  margin-bottom: "10 0 10 0";
   border: 0;
 }
 /* Navigation */
@@ -260,17 +260,15 @@ a:focus,
 .btn.active.focus {
   outline: none;
   outline-offset: none;
-
 }
 
-#search{
-  display:'inline';
+#search {
+  display: "inline";
   width: auto;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-    
 }
 
 /* Header Section */
