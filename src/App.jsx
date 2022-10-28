@@ -9,7 +9,7 @@ import { ConsumerHeader } from "./components/consumerHeader";
 // import { Team } from "./components/Team";
 // import { Contact } from "./components/contact";
 // import JsonData from "./data/data.json";
-import SmoothScroll from "smooth-scroll";
+// import SmoothScroll from "smooth-scroll";
 import "./App.css";
 import { Navigation } from "./components/navigation";
 import { LoginPage } from "./components/LoginPage";
@@ -26,14 +26,14 @@ const App = () => {
   return (
     <>
       {/* <Home/> */}
-      {/* <ConsumerHeader></ConsumerHeader> */}
+      <ConsumerHeader></ConsumerHeader>
       <AdHeader></AdHeader>
       {/* <LoginPage></LoginPage>
       <JoinMember /> */}
-      {/* <Routes>
+      <Routes>
         <Route path="/" element={<Home></Home>} />
         <Route path="/nav" element={<Navigation />} />
-      </Routes> */}
+      </Routes>
       {/* <Features data={landingPageData.Features} /> */}
       {/* <Services data={landingPageData.Services} />
       <Gallery data={landingPageData.Gallery}/>
