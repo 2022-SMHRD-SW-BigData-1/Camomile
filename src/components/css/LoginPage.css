@@ -1,0 +1,97 @@
+.Login_backGroundSet {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+.Login_Container {
+  width: 500px;
+  height: 520px;
+  position: relative;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  flex-direction: column;
+  border: 5px solid rgb(245, 243, 242);
+  top: 100px;
+}
+
+.Login_Title {
+  position: relative;
+  width: 100%;
+  height: 30%;
+  top: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.Login_Row {
+  padding: 8px;
+  height: 10%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.Login_chbx {
+  width: 100%;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-bottom: 10px;
+  text-indent: 5px;
+}
+.Login_button {
+  display: block;
+  position: relative;
+  height: 50px;
+}
+
+.Login_button button {
+  position: relative;
+  width: 42%;
+  height: 50px;
+  margin-left: 30%;
+  top: 75%;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  color: black;
+  background: rgb(245, 230, 216);
+}
+
+.border {
+  background-color: rgb(202, 200, 200);
+  top: 140px;
+}
+
+.Login_signup {
+  position: relative;
+  text-align: center;
+  top: 150px;
+}
+
+.Login_joinbutton {
+  display: block;
+  position: relative;
+  width: 210px;
+  height: 50px;
+  margin-left: 30%;
+  top: 150px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  color: black;
+  background: rgb(245, 230, 216);
+}
+
+.Login_input_pw {
+  display: block;
+  position: relative;
+  margin-bottom: 20px;
+}

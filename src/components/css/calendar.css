@@ -1,0 +1,117 @@
+button {
+  cursor: pointer;
+}
+
+.Ca_container {
+  display: inline-block;
+  width: 822px;
+  height: auto;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid rgba(241, 196, 15, 0.17);
+  background: whitesmoke;
+  position: relative;
+}
+
+.Ca_container .title {
+  /* font-size: 20px */
+  display: flex;
+  height: 55px;;
+}
+
+.Ca_container .title > button {
+  border: none;
+  margin-left: 20px;
+  height: 20px;
+  align-self: center;
+}
+
+.Ca_container .title .pagination {
+  /* margin-left: auto; */
+  align-self: center;
+}
+.Ca_container .title .pagination button {
+  /* margin: 0 30px; */
+  border: none;
+  background: none;
+  font-size: 30px;
+}
+
+.Ca_container .week {
+  margin: 20 30 0 30;
+  display: flex;
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.Ca_container .week .weekday {
+  display: inline-block;
+  position: relative;
+  margin: 0 29.5px;
+  width: calc(500px / 7);
+  text-align: center;
+
+}
+
+.Ca_container .week .sunday {
+  /* margin: 0 32px; */
+  /* margin-left: 30px; */
+  color: red;
+
+}
+
+.Ca_container .week .saturday {
+  margin: 0 25px;
+  margin-right: 40px;
+  color: blue;
+ 
+}
+
+.Ca_container .Ca_date {
+  width: 762px;
+  margin-top: 0px;
+  margin-left: 20px;
+}
+
+.Ca_container .Ca_date .weekday {
+  display: block;
+  margin: 0 0 0 12.5;
+  margin-top: 20px;
+  padding-left:22.5px;
+  padding-right:22.5px;
+  width: calc(355px / 7);
+  float: left;
+  /* text-align: center; */
+  height: 50px;
+  line-height: 50px;
+  font-size: 30px;
+}
+
+.Ca_container .Ca_date .sunday {
+  color: red;
+}
+
+.Ca_container .Ca_date .saturday {
+  color: blue;
+}
+
+.Ca_container .Ca_date .weekday:active {
+  display: block;
+  box-sizing: border-box;
+  background-color: white;
+  border:1px gray solid;
+  border-radius: 50%;
+  width: 50px;
+  padding-right: 9px;
+  padding-left: 9px;
+  margin-left: 34px;
+  margin-right: 24px;
+  /* margin-bottom: 1px; */
+  /* margin-top: 50px; */
+}
+
+/* .Ca_container .Ca_date .today {
+  background-color: rgb(88, 111, 187);
+  color: white;
+  font-weight: 700;
+  border-radius: 50%;
+} */

@@ -8,7 +8,7 @@ const session_mysql_save = require("express-mysql-session");
 const path = require("path");
 const cors = require("cors");
 
-app.use(express.static(path.join(__dirname, "Camomile", "build")));
+app.use(express.static(path.join(__dirname, "build")));
 
 app.use(express.json());
 app.use(cors());

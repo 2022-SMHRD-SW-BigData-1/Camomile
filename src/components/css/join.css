@@ -1,0 +1,93 @@
+.join {
+  margin-left: 100;
+  margin-right: 100;
+  background-color: hsl(48, 100%, 94%);
+  padding: 20px;
+  padding-bottom: 10%;
+  text-align: center;
+  justify-content: center;
+}
+.joinInput {
+  border: solid 3px black;
+  background-color: #fff6d1;
+  margin-top: 5%;
+  justify-content: space-around;
+  min-width: 800px;
+  min-height: 1000px;
+  width: auto;
+  height: auto;
+  justify-content: center;
+}
+
+.inputTitle {
+  color: rgb(64, 64, 64);
+  text-align: left;
+  font-weight: bolder;
+  font-size: x-large;
+  text-indent: 35%;
+  margin-bottom: 5px;
+}
+.inputBox {
+  margin-bottom: 5%;
+  width: 30%;
+  height: 4%;
+  justify-content: center;
+}
+
+.join {
+  display: grid;
+  grid-template-columns: auto;
+  display: flex;
+}
+
+.img {
+  position: relative;
+  max-width: 35%;
+  max-height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.inputbutton {
+  width: 30%;
+  height: 6%;
+  margin-bottom: auto;
+  background-color: white;
+  color: rgb(64, 64, 64);
+  font-weight: bold;
+  font-size: x-large;
+  border: solid white;
+}
+
+.info_birth {
+  display: flex;
+  grid-template-columns: auto;
+  width: 20%;
+  height: 6%;
+  margin-bottom: 5%;
+}
+.info_birth select {
+  margin: 7px;
+}
+.info_birth#info_birth select:first-child {
+  margin-left: 0px;
+}
+#info_birth select::-webkit-scrollbar {
+  width: 10px;
+}
+#info_birth select::-webkit-scrollbar-thumb {
+  background-color: #b6b6b6;
+  border-radius: 3px;
+}
+#info_birth select::-webkit-scrollbar-track {
+  background-color: #ebe9e9;
+  border-radius: 6px;
+}
+
+@media (max-width: 600px) {
+  .join {
+    display: block;
+  }
+  .join .joinInput {
+    display: block;
+  }
+}

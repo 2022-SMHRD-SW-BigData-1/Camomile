@@ -1,0 +1,31 @@
+.seFlexBar {
+  display: inline-flex;
+  position: relative;
+  width: 600px;
+  top: 15px;
+  left: 25px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.seFlexBar p {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.seFlexBar p:hover,
+.seFlexBar li:hover {
+  color: darkgray;
+}
+
+.seUl {
+  display: inline-block;
+  position: relative;
+  text-align: right;
+  width: 190px;
+  top: 6px;
+}
+
+.SearchHeader {
+  display: block;
+}

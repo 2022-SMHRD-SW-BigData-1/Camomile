@@ -1,0 +1,129 @@
+.userInfoTitle {
+  display: block;
+  position: relative;
+  font-weight: bold;
+  color: #404040;
+  left: 10px;
+}
+.userContent{
+  position: relative;
+  height: 500px;
+}
+.userInfoHr{
+ display:block;
+ position:relative;
+ background-color: #703015; 
+}
+
+.userInfoText{
+  position: relative;
+  font-size: 22px;
+  font-weight: 1000;
+  color: #404040;
+}
+
+.userPhoto {
+  display: inline-block;
+  position: relative;
+  font-weight: bold;
+  color: #404040;
+  left: 30px;
+}
+
+.userPhotoSelect {
+  display: inline;
+  position: relative;
+  left: 10px;
+  font-weight: 600;
+  height: 30px;
+  background-color: #FFF9E2;
+  border: none;
+}
+
+.userPhotoInput{
+  width: 200px;
+  height: 30px;
+}
+
+.userName {
+  display: inline;
+  position: relative;
+  top: 10px;
+  left: 30px;
+  font-weight: bold;
+  color: #404040;
+}
+
+.userNameInput{
+  width: 200px;
+  height: 30px;
+  font-weight: 400;
+}
+
+.userBirth {
+  display: inline;
+  position: relative;
+  top: 20px;
+  left: 30px;
+  font-weight: bold;
+  color: #404040;
+}
+
+.userBirthP{
+  position: relative;
+  justify-content: space-around;
+}
+
+.userBirthInput{
+  height: 30px;
+  width: 100px;
+  margin-right: 10px;
+  font-weight: 400;
+}
+
+.userPhone {
+  display: inline;
+  position: relative;
+  top: 30px;
+  left: 30px;
+  color: #404040;
+}
+
+.userNick {
+  display: inline;
+  position: relative;
+  top: 40px;
+  left: 30px;
+  font-weight: bold;
+  color: #404040;
+}
+
+.userNickname{
+  width: 200px;
+  height: 30px;
+  font-weight: 400;
+}
+
+.userPhoneInput{
+  width: 200px;
+  height: 30px;
+  font-weight: 400;
+}
+
+.userInfoButton {
+  position: relative;
+  text-align: center;
+  display: block;
+  top: 60px;
+}
+
+.userInfoButton2 {
+  height: 50px;
+  width: 200px;
+  font-size: 25px;
+  background-color: #FFF9E2;
+  border-radius: 10%;
+  border: none;
+  font-weight: bold;
+  color: #404040;
+}
