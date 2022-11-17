@@ -1,0 +1,63 @@
+.girdContainer{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+    justify-content: center;
+}
+.selectBar{
+    width:150px;
+    height: 35px;
+    position:relative;
+    display:inline;
+    left:100px;
+    color: #404040;
+}
+.reservationCafeList{
+    display: grid;
+    grid-template-columns: 260px 260px 260px 260px;
+
+}
+.reservationCafe{
+    display: inline-block;
+    position: relative;
+    width: auto;
+    height: 230px;
+    margin: auto;
+}
+.reservationImg{
+    position: relative;
+    margin: auto;
+    display: block;
+    width: 220px;
+    height: 210px;
+    padding: 12px;
+}
+
+.reservationName{
+    position: relative;
+    display: inline-flex;
+    width: 200px;
+    height: 30px;
+    background-color: #f1c10063;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 0 10px 0 10px;
+    color: #404040;
+    justify-content: space-between;
+}
+
+.reservationNameSapn{
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.reservationHeart{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 7px;
+    right: 10px;
+}

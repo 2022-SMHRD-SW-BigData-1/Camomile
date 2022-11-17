@@ -1,0 +1,287 @@
+.reservationContent{
+    width: 1170px;
+    position: relative;
+    margin: auto;
+    text-align: left;
+    top: 50px;
+}
+
+.reservationTitle{
+    position: relative;
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    left: 30px;
+}
+
+.reservationImg{
+    width: 60px;
+    height: auto;
+    position: relative;
+    margin: 0;
+}
+
+.reservationText{
+    top: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #404040;
+    position: relative;
+}
+.reservationMenu{
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    grid-template-columns: 260px 260px 260px 260px;
+}
+
+.reservationGrid{
+    position: relative;
+    align-items: center;
+    width: 220;
+    margin: 0 auto;
+    left: 10px;
+    text-align: center;
+}
+.reservationMenuImg{
+    position: relative;
+    display:  inline-flex;
+    margin: auto;
+    display: block;
+    width: 180px;
+    height: 180px;
+    margin-bottom: 3px;
+}
+
+.reservationBeverage{
+    position: relative;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 180px;
+    margin-top: 5px;
+    margin: auto;
+}
+
+.beverageName{
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    color: #404040;
+}
+.beveragePrice{
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    color: #404040;
+}
+
+.resevationCount{
+    position: relative;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 180px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.countButton{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: #FFF6D1;
+    border: 1px solid;
+    border-color: #f1c10063;
+    font-size: 15px;
+    font-weight: 700;
+    color: #404040;
+}
+
+.countInt{
+    position: relative;
+    display: inline;
+    font-size: 30px;
+    font-weight: 600;
+    bottom: 5px;
+    justify-content: center;
+    color: #404040;
+}
+
+.reservationDiv{
+    position: relative;
+    height: auto;
+    bottom: 10px;
+
+
+}
+
+.reservationDay{
+    position: relative;
+    height: 40px;
+    width: 130px;
+    text-align: center;
+    margin-left: 40px;
+    font-size: 20px;
+    color: #404040;
+}
+
+.reservationTime{
+    position: relative;
+    height: 40px;
+    width: 160px;
+    text-align: center;
+    margin-left: 40px;
+    font-size: 20px;
+    color: #404040;
+}
+
+.reservationTableCount{
+    position: relative;
+    height: 40px;
+    width: 160px;
+    text-align: center;
+    margin-left: 40px;
+    font-size: 13px;
+    color: #404040;
+}
+
+.reservationUserCount{
+    position: relative;
+    height: 40px;
+    width: 160px;
+    text-align: center;
+    margin-left: 40px;
+    font-size: 20px;
+    color: 20px;
+}
+
+.reservationChat{
+    position: relative;
+    margin-left: 40px;
+    color: #404040;
+    font-size: 20px;
+    resize: none;
+}
+
+
+.reservationButton{
+    position: relative;
+    text-align: center;
+    display: block;
+    padding-bottom: 40px;
+}
+
+.reservationButton2{
+    width: 200px;
+    height: 45px;
+    background-color: #FFF6D1;
+    border: solid 1px #f1c10063;
+    border-radius: 10%;
+    font-size: 25px;
+    font-weight: 600;
+    color: #404040;
+
+}
+
+.reservationCa {
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  padding: 10px 10px 10px 10px;
+  /* border: 1px solid rgba(241, 196, 15, 0.17); */
+  background: #faf2d5;
+  position: relative;
+}
+
+.reservationCa .title {
+  /* font-size: 20px */
+  display: flex;
+  height: 20px;
+}
+
+.reservationCa .title > button {
+  border: none;
+  margin-left: 20px;
+  height: 20px;
+  align-self: center;
+}
+
+.reservationCa .title .pagination {
+  /* margin-left: auto; */
+  align-self: center;
+}
+.reservationCa .title .pagination button {
+  /* margin: 0 30px; */
+  border: none;
+  background: none;
+  font-size: 30px;
+}
+
+.reservationCa .week {
+  margin:0;
+  display: flex;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.reservationCa .week .weekday {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  width: calc(500px / 7);
+  text-align: center;
+
+}
+
+.reservationCa .week .sunday {
+  /* margin: 0 32px; */
+  /* margin-left: 30px; */
+  color: red;
+
+}
+
+.reservationCa .week .saturday {
+  /* margin: 0 25px; */
+  /* margin-right: 40px; */
+  color: blue;
+ 
+}
+
+.reservationCa .Ca_date {
+  width: 400px;
+  margin-top: 0px;
+  margin-left: 6px;
+  text-align: center;
+}
+
+.reservationCa .Ca_date .weekday {
+  display: block;
+  margin: 15 17.5 0 17.5;
+  padding: 5 7 5 3;
+  width: calc(80px / 7);
+  float: left;
+  height: 10px;
+  line-height: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.reservationCa .Ca_date .sunday {
+  color: red;
+}
+
+.reservationCa .Ca_date .saturday {
+  color: blue;
+}
+
+.reservationCa .Ca_date .weekday:active {
+  display: block;
+  box-sizing: border-box;
+  background-color: white;
+  border:1px gray solid;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  padding-left:1px;
+  padding-bottom: 5px;
+  padding-right: 1px;
+}

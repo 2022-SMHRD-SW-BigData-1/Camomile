@@ -1,0 +1,35 @@
+.adFlexBar {
+  display: flex;
+  position: relative;
+  width: 80%;
+  top: 20px;
+  /* left: 25px; */
+  float: right;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+}
+
+.adFlexBar p {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.adFlexBar p:hover,
+.adFlexBat li:hover {
+  color: darkgray;
+}
+
+.AdHeaderUl {
+  display: inline-block;
+  position: relative;
+  text-align: right;
+  width: auto;
+  top: 6px;
+  /* left: 190px; */
+  /* float: right; */
+}
+
+#AdHeader {
+  display: block;
+  /* position: fixed; */
+}

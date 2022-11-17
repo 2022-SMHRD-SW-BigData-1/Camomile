@@ -1,0 +1,184 @@
+.cafeInformation {
+  column-count: 2;
+  column-gap: 50px;
+  column-rule-style: hidden;
+  width: 1170px;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+
+.searchBar {
+  padding-top: 2px;
+  width: 30%;
+  height: 50%;
+  justify-content: center;
+  margin: 0 auto;
+  display: inline-block;
+  position: relative;
+}
+
+.searchImg {
+  position: inherit;
+  width: 25px;
+  bottom: 2px;
+}
+
+.searchP {
+  position: relative;
+  top: 20px;
+}
+
+.imgsection {
+  padding: 30px;
+  position: relative;
+  text-align: center;
+}
+
+.cafeDetailBox {
+  padding: 10px;
+  float: left;
+}
+.cafeTitle {
+  text-align: left;
+  color: #404040;
+  font-weight: bold;
+}
+
+.cafeText {
+  width: 100%;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 1%;
+  padding-top: 10px;
+  color: #404040;
+}
+
+.cafeHours {
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  width: 1170px;
+}
+
+.cafeHourDetail {
+  column-count: 2;
+  column-gap: 50px;
+  column-rule-style: hidden;
+  padding-bottom: 30px;
+}
+
+.cafeNotice {
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  width: 1170px;
+}
+
+.viewMore {
+  height: 40px;
+  width: 120px;
+  font-weight: bold;
+  font-size: large;
+  background-color: #fff9e2;
+  color: #404040;
+  border: 0;
+  justify-content: right;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  right: 12px;
+}
+
+.noticeText {
+  text-align: start;
+  position: relative;
+}
+
+.reservation {
+  position: fixed;
+  bottom: 45px;
+  left: 50%;
+  margin-left: 40%;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 50%;
+  border: 0px solid;
+  background-color: rgba(241, 193, 0, 0.822);
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  transition: all 200ms ease-out;
+  display: inline-block;
+  z-index: 10;
+}
+
+.reviewInput {
+  display: inline-block;
+  position: absolute;
+  /* font-size: 10px; */
+  top: 70px;
+  width: 93%;
+  height: 100%;
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  background-color: whitesmoke;
+  resize: none;
+}
+.reviewInput + button {
+  display: inline-block;
+  position: relative;
+  /* font-size: 10px; */
+  bottom: 11px;
+  float: right;
+  border: 0;
+  border-radius: 15px;
+
+  background-color: #fff9e2;
+}
+
+.cafeReview {
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  width: 1170px;
+  height: 100px;
+}
+
+.cafeReviewList {
+  display: inline-block;
+  position: relative;
+  margin-top: 30px;
+  width: 1170px;
+  height: 30px;
+  text-align: left;
+}
+
+.cafeReviewListUser {
+  display: block;
+  position: relative;
+  width: 100%;
+  bottom: 40px;
+  left: 15px;
+  background-color: whitesmoke;
+  border-radius: 5%;
+}
+
+.cafeReviewListContent {
+  display: inline-block;
+  position: relative;
+  bottom: 45px;
+  font-size: 15px;
+  border-radius: 5%;
+  background-color: whitesmoke;
+  width: 100%;
+  height: 20px;
+  margin-left: 15px;
+}

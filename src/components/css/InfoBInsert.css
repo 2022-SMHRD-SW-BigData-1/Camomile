@@ -1,0 +1,146 @@
+.BookingHistoryH1 {
+  display: block;
+  position: relative;
+  /* font-size: 26px; */
+  font-weight: bold;
+  color: #404040;
+  margin: 0;
+  top: 40px;
+  left: 80px;
+}
+​ .BookingHistoryHr {
+  display: block;
+  float: left;
+  position: relative;
+  margin: 60px 150px 10px 80px;
+  width: 86%;
+  background-color: #703015;
+  height: 4px;
+}
+.BookingHistoryHr1 {
+  display: block;
+  float: left;
+  top: 30px;
+  position: relative;
+  margin: 60px 150px 10px 80px;
+  width: 86%;
+  background-color: gray;
+  height: 2px;
+}
+.BookingHistoryHr2 {
+  display: block;
+  float: left;
+  position: relative;
+  margin: 25px 150px -15px 80px;
+  width: 86%;
+  background-color: gray;
+  height: 2px;
+}
+
+.CafeName {
+  display: inline;
+  position: relative;
+
+  left: 80px;
+  top: 10px;
+  font-weight: bold;
+  color: #404040;
+}
+.CafePhone {
+  display: inline;
+  position: relative;
+
+  left: 80px;
+  top: 10px;
+  font-weight: bold;
+  color: #404040;
+}
+
+.CafeAd {
+  display: inline;
+  position: relative;
+
+  left: 80px;
+  top: 10px;
+  font-weight: bold;
+  color: #404040;
+}
+
+.CafeAdbutton {
+  display: inline;
+  position: relative;
+  left: 10px;
+  font-weight: bold;
+  border: none;
+  border-radius: 15%;
+  background-color: rgb(243, 232, 196);
+}
+
+.CafeKey {
+  display: inline;
+  position: relative;
+
+  left: 80px;
+  top: 10px;
+  font-weight: bold;
+  color: #404040;
+}
+
+.CafeTime,
+.CafeTableNum {
+  display: inline;
+  position: relative;
+
+  left: 80px;
+  top: 10px;
+  font-weight: bold;
+  color: #404040;
+}
+
+.CafeIntro {
+  display: inline;
+  position: relative;
+  left: 80px;
+  top: 10px;
+  color: #404040;
+}
+
+.InsertButton {
+  display: block;
+  position: relative;
+  width: 100px;
+  height: 30px;
+  left: 500px;
+  top: 40px;
+  margin-bottom: 100px;
+  background-color: rgb(243, 232, 196);
+  border: none;
+  font-weight: bold;
+  color: #404040;
+}
+
+.closetime {
+  position: relative;
+  width: 110px;
+
+  left: 170px;
+
+  color: #404040;
+}
+
+.opentime {
+  position: relative;
+  width: 110px;
+
+  left: 10px;
+
+  color: #404040;
+}
+
+.refresh {
+  display: inline;
+  position: relative;
+  left: 80px;
+  top: 10px;
+  color: #404040;
+}
